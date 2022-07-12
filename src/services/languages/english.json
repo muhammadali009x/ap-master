@@ -1,0 +1,279 @@
+{
+    "drawer": {
+        "heading": [
+            "Welcome Vendor"
+        ],
+        "drawer_content": [
+            "Dashboard",
+            "Products",
+            "Orders",
+            "Payment",
+            "Reports",
+            "Support",
+            "Settings"
+        ],
+        "products_content": [
+            "All Products",
+            "Add Products",
+            "Unit",
+            "Category",
+            "Variations"
+        ],
+        "language_switches": "Switch to English"
+    },
+    "products": {
+        "all_products": {
+            "heading": "Products",
+            "links": [
+                "All",
+                "Online",
+                "Add New Product",
+                "Edit this Product"
+            ],
+            "add_new_button": "Add New Products",
+            "filters": {
+                "filters_category": [
+                    "Select Category",
+                    "Status",
+                    "Date",
+                    "Filter"
+                ],
+                "filters_product": [
+                    "Search Product",
+                    "Search"
+                ]
+            },
+            "row_titles": [
+                "Image",
+                "SKU",
+                "Product Name",
+                "Status",
+                "Stock",
+                "Price",
+                "Category",
+                "Date"
+            ],
+            "others": [
+                "selected",
+                "Rows per page"
+            ]
+        },
+        "add_products": {
+            "heading": "Add New Product",
+            "cover": [
+                "COVER IMAGE",
+                "Upload or Drag a product cover image"
+            ],
+            "textboxes": [
+                "Product Name English",
+                "Product Name Arabic"
+            ],
+            "dropdowns": [
+                "Select a Category",
+                {
+                    "product_type": {
+                        "Name": "Product Type",
+                        "optional": "Single / Multiple"
+                    }
+                }
+            ],
+            "add_variations_textboxes": [
+                "Type",
+                "Value",
+                "SKU",
+                "Quantity",
+                "Unit",
+                "Price"
+            ],
+            "textarea": [
+                "Short description about this prodcuct",
+                "Short description about this prodcuct in Arabic"
+            ],
+            "buttons": [
+                "Add",
+                "Create Product",
+                "Create & Add New"
+            ]
+        },
+        "edit_products": {
+            "heading": "Edit Product",
+            "cover": [
+                "COVER IMAGE",
+                "Upload or Drag a product cover image"
+            ],
+            "textboxes": [
+                "Product Name English",
+                "Product Name Arabic"
+            ],
+            "dropdowns": {
+                "product_category": [
+                    "Select a Category",
+                    "Select a Sub-Category"
+                ],
+                "product_type": {
+                    "Name": "Product Type",
+                    "optional": "Single / Multiple"
+                }
+            },
+            "about_product_textboxes": [
+                "Price",
+                "Currency",
+                "Quantity",
+                "Unit"
+            ],
+            "add_variations_textboxes": [
+                "Color",
+                "Size",
+                "Quantity"
+            ],
+            "textarea": [
+                "Short description about this prodcuct",
+                "Short description about this prodcuct in Arabic"
+            ],
+            "buttons": [
+                "Add",
+                "Remove",
+                "Status",
+                "Save"
+            ]
+        },
+        "unit": {
+            "main_heading": "Products (Units)",
+            "sub_heading": "All your Units",
+            "table_heading": [
+                "Name",
+                "Short Name",
+                "Allow Decimal",
+                "Action"
+            ],
+            "buttons": [
+                "Add",
+                "Edit",
+                "Delete"
+            ],
+            "add_unit": {
+                "heading": "Add Unit",
+                "text_inputs": [
+                    "Unit",
+                    "Short Name",
+                    "Allow Decimal",
+                    "Select a Category"
+                ],
+                "button": "Save"
+            },
+            "edit_unit": {},
+            "delete_unit": {
+                "heading": "Unit Name",
+                "title": "Are You Sure you want to delete this unit ?",
+                "buttons": ["Yes", "No"]
+            }
+        },
+        "categories": {
+            "main_heading": "Products (Categories)",
+            "sub_heading": "Manage your Categories",
+            "table_heading": [
+                "Category",
+                "Description",
+                "Action"
+            ],
+            "buttons": [
+                "Add",
+                "Edit",
+                "Delete"
+            ],
+            "add_category": {
+                "heading": "Add Categories",
+                "textFields": [
+                    "Category",
+                    "Description"
+                ],
+                "button": "Save"
+            },
+            "edit_category": {},
+            "delete_category": {
+                "heading": "Category Name",
+                "title": "Are You Sure you want to delete this category ?",
+                "buttons": ["Yes", "No"]
+            }
+        },
+        "variations": {
+            "main_heading": "Products (Variations)",
+            "sub_heading": "Manage your Variations",
+            "table_heading": [
+                "Variations",
+                "Values",
+                "Action"
+            ],
+            "buttons": [
+                "Add",
+                "Edit",
+                "Delete"
+            ],
+            "add_variation": {
+                "heading": "Add Variations",
+                "textFields": [
+                    "Variation Name",
+                    "Add Variation Values"
+                ],
+                "button": "Save"
+            },
+            "edit_variation": {},
+            "delete_category": {
+                "heading": "Variation Name",
+                "title": "Are You Sure you want to delete this Variation ?",
+                "buttons": ["Yes", "No"]
+            }
+        }
+    },
+    "dashboard": {
+        "reports": [
+            "Sales",
+            "Tax",
+            "Earnings"
+        ],
+        "orders": [
+            "Active Orders",
+            "Completed Orders",
+            "All Orders"
+        ],
+        "orders_details": [
+            "Order",
+            "Status",
+            "Time"
+        ]
+    },
+    "settings": {
+        "main_heading": "Settings",
+        "headings": [
+            "Profile Settings",
+            "Admin Info",
+            "Tax Settings",
+            "Payment Settings"
+        ],
+        "profile_settings": [
+            "Store Name",
+            "Owner Name",
+            "Store Id",
+            "Phone Number",
+            "Branch No.",
+            "Country",
+            "City",
+            "Location (Google Map)"
+        ],
+        "admin_info": [
+            "Admin Name",
+            "Number",
+            "Email"
+        ],
+        "tax_settings": [
+            "Tax Type",
+            "Tax No.",
+            "Percentage",
+            "Inclusive / Exclusive"
+        ],
+        "payment_settings": [
+            "APIs",
+            "Key"
+        ]
+    }
+}

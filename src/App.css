@@ -1,0 +1,17 @@
+:root{
+  --main-bg: rgb(32, 45, 61);
+  --main-color: rgb(96, 126, 197);
+}
+.header{
+  background-color: var(--main-bg);
+  height: 5vh;
+}
+.footer{
+  width: 100%;
+  background-color: var(--main-bg);
+  vertical-align: bottom;
+  margin-top: auto;
+}
+.dashboard-text{
+  font-weight: bold;
+}
